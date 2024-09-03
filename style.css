@@ -193,29 +193,32 @@ body::-webkit-scrollbar {
 
 /* clients Styling 
 */
+/* Clients Section */
 .client-section {
     height: 14rem;
     background-color: rgb(66, 62, 62);
-    /* background-color: red; */
-}
-
-.client-section::before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.3;
-    width: 100%;
-    height: 15rem;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    justify-content: center; /* Center the content vertically */
 }
 
 #clients {
-    text-align: center;
-    justify-content: center;
+    display: flex;
+    justify-content: center; /* Center the client logos horizontally */
     flex-wrap: wrap;
+    gap: 1rem; /* Add some space between logos */
+    width: 100%;
+    max-width: 80%; /* Control the maximum width of the logos section */
+    text-align: center;
 }
+
+.item-box {
+    text-align: center;
+    align-items: center;
+    width: 5rem;
+}
+
 
 
 
