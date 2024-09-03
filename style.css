@@ -211,11 +211,11 @@ body::-webkit-scrollbar {
 
 }
 
-/* #clients {
-    /* height: 15rem;
-    width: 100%;
-    background-color: goldenrod; 
-} */
+#clients {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 
 
@@ -235,10 +235,6 @@ body::-webkit-scrollbar {
     align-items: center;
     width: 5rem;
     margin-left: 2rem;
-}
-
-.box-1 {
-    margin-left: 25rem;
 }
 
 .item {
